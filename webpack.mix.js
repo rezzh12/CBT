@@ -1,5 +1,10 @@
 const mix = require('laravel-mix');
 
+mix.options({
+  processCssUrls: false,
+  hideModules: true,
+});
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
